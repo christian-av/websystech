@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
 <head>
+    <meta charset="UTF-8">
     <title>Adobo Recipe</title>
     <style>
         body {
             font-family: Century Gothic, sans-serif;
             margin: 20px;
-	    padding: 10px;
+            padding: 10px;
             background-color: #f5f5f5;
+            background-image: url('adobobg.png');
         }
         section {
+            display: flex;
+            justify-content: space-between;
             margin: 10px auto;
-	    width: 75%;
+            width: 80%;
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
-            border: 2px solid #000; 
+            border: 4px solid #416126; 
         }
         table {
-            margin: 0 auto;
+            width: 100%;
             border-collapse: collapse;
-            width: 80%;
             border-radius: 10px;
             overflow: hidden;
         }
@@ -33,27 +35,31 @@
         th {
             background-color: #f2f2f2;
         }
-	h1 {
-	    text-align: center;
-	    font-size: 40px;
-	}
-	li {
-	    padding: 10px;
-	}
-	footer {
-	    padding-top: 40px;
-	    text-align: center;
-	    font-size: 15px;	
-	}
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        li {
+            padding: 10px;
+        }
+        footer {
+            padding-top: 40px;
+            text-align: center;
+            font-size: 15px;    
+        }
+        img {
+            width: 60%; /* Adjust the width of the image */
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
 
-    <section>
-		<marquee>The best <strong>adobo</strong> ever! 🎀🎀🎀</marquee>
+<section>
+    <div>
+        <marquee>The best <strong>adobo</strong> ever! 🎀🎀🎀</marquee>
         <h1><strong>🍲Adobo Recipe🍲</strong></h1>
-
         <table>
             <tr>
                 <th>Ingredients</th>
@@ -84,8 +90,8 @@
                 <td>2 Pcs</td>
             </tr>
         </table>
-		<br>
-		<br>
+        <br>
+        <br>
         <h2>Instructions:</h2>
         <ol>
             <li>In a bowl, marinate the chicken or pork with <strong>soy sauce</strong>, <strong>vinegar</strong>, <strong>minced garlic</strong>, <strong>peppercorns</strong>, and <strong>bay leaves</strong>. Let it marinate for at least <strong>30 minutes</strong>.</li>
@@ -94,14 +100,15 @@
             <li>Adjust the taste by adding more <strong>soy sauce</strong> or <strong>vinegar</strong> according to your preference.</li>
             <li>Serve hot and enjoy your delicious adobo!</li>
         </ol>
-		<footer style="color: #727272">
-			Created by: <strong>CHRISTIAN AVILO</strong> | <strong>ALLIYAH MAE O. REÑOS</strong>
-			<br>
-			<small style="color: #000000"><strong>WEB SYSTEMS AND TECHNOLOGY</strong> BSIT-IT2R1</small>
-			
-		</footer>
-    </section>
+        <footer style="color: #727272">
+            Created by: <strong>CHRISTIAN AVILO</strong> | <strong>ALLIYAH MAE O. REÑOS</strong>
+            <br>
+            <small style="color: #000000"><strong>WEB SYSTEMS AND TECHNOLOGY</strong> BSIT-IT2R1</small>
+        </footer>
+    </div>
+    <br>
+    <img src="adoborc1.png">
+</section>
 
 </body>
-
 </html>
